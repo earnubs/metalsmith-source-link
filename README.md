@@ -11,7 +11,7 @@ $ npm install metalsmith-source-link --save
 
 ## Usage
 
-```
+```js
 var Metalsmith = require('metalsmith');
 var sourcelink = require('metalsmith-source-link');
 
@@ -21,7 +21,7 @@ Metalsmith
 
 Each file then has a `sourceURL` property which can be used in templates like so:
 
-```
+```html
 <a href="{{ sourceURL }}">See the source for this file on Github.</a></p>
 ```
 
