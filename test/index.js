@@ -1,7 +1,7 @@
 'use strict';
 
 const test = require('tape');
-const plugin = require('../index');
+const plugin = require('../lib');
 const Metalsmith = require('metalsmith');
 
 test('with config', t => {
