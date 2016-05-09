@@ -1,2 +1,30 @@
 # metalsmith-source-link
-Add a link to your src on github (or elsewhere) from templates
+
+Plugin to add a link to your content src on github (or elsewhere) from the template.
+
+
+## Installation
+
+```
+$ npm install metalsmith-source-link --save
+```
+
+## Usage
+
+```
+var Metalsmith = require('metalsmith');
+var sourcelink = require('metalsmith-source-link');
+
+Metalsmith
+.use(sourcelink('https://github.com/earnubs/field-notes/tree/master/'))
+```
+
+Each file then has a `sourceURL` property which can be used in templates like so:
+
+```
+<a href="{{ sourceURL }}">See the source for this file on Github.</a></p>
+```
+
+## Licence
+
+MIT
