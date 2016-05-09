@@ -1,0 +1,14 @@
+{
+  "name": "metalsmith-source-link",
+  "version": "1.0.0",
+  "description": "A Metalsmith plugin that puts the link to your content source in file metadata.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "author": "Stephen Stewart <stephen.stewart@canonical.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
