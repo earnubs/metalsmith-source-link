@@ -1,4 +1,4 @@
-# metalsmith-source-link
+# metalsmith-source-link [![Build Status](https://travis-ci.org/earnubs/metalsmith-source-link.svg?branch=master)](https://travis-ci.org/earnubs/metalsmith-source-link)
 
 Plugin to add a link to your content src on github (or elsewhere) from the template.
 
